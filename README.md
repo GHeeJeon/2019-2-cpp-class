@@ -1,2 +1,2 @@
 # 2019-2-cpp-class
-asd
+2019 fall semester c++ language class
