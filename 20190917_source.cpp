@@ -200,6 +200,7 @@ void Point::ShowPoint() {
 }
 */
 
+/*
 // 20190917 Chapter3 Practice 3-2
 
 #include <iostream>
@@ -258,4 +259,27 @@ double Point::getY() { return y; }
 void Point::setX(double xx) { x = xx; }
 void Point::setY(double yy) { y = yy; }
 
+*/
+
+
+// 20190917 Chapter3 Practice 4
+#include <iostream>
+
+#include "exp.h"
+
+using namespace std;
+
+int main() {
+	Exp a(3, 2);
+	Exp b(9);
+	Exp c;
+
+	cout << a.getValue() << ' ' << b.getValue() << ' ' << c.getValue() << endl;
+	cout << "Base value of a : " << a.getBase() << ", " << "Exponential Constant of a : " << a.getExp() << endl;
+
+	if (a.equals(b))
+		cout << "same" << endl;
+	else
+		cout << "not same" << endl;
+}
 
